@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Relógio em Tempo Real</title>
+    <link rel="stylesheet" href="css/projeto-relogio-mobilefirst.css" media="all">
+    <link rel="stylesheet" href="css/projeto-relogio-outrasmedias.css">
+</head>
+
+<body>
+    <main>
+
+        <div class="titulo">
+            <h1>Projeto Relógio/Cronômetro</h1>
+        </div>
+
+        <div class="list-div">
+            <p>Selecione a ferramenta desejada:</p>
+            <select name="lista" class="list">
+                <option class="list-item selecione" id="selecione"selected> --- Selecione --- </option>
+                <option class="list-item relogio" id="relogio">Relógio em Tempo Real</option>
+                <option class="list-item cronometro" id="cronometro"> Cronômetro</option>
+            </select>
+        </div>
+
+        <div class="display-div">
+            <p id="display-texto"><span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+            </p>
+        </div>
+
+        <div class="buttons-div">
+            <button class="buttons" id="start">Start</button>
+            <button class="buttons" id="stop">Stop</button>
+            <button class="buttons" id="reset">Reset</button>
+        </div>
+    </main>
+
+    <script src="js/projeto-relogio-padrao.js"></script>
+
+</body>
+
+</html>
